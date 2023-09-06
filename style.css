@@ -1,0 +1,50 @@
+.section, .header-container{
+    width: 595px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #9E924F;
+    height: 108px;
+}
+
+.header-container{
+    color: rgb(255, 255, 255);
+
+}
+
+h2{
+    color: #9D914E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-family:'Courier New', Courier, monospace
+}
+
+.name, .data_contact{
+    display: flex;
+}
+
+.identificacion{ 
+    margin-right: 68px;
+}
+
+
+.container-data{
+    position:relative;
+}
+
+.foto{
+    border-radius: 80px;
+    position: absolute;
+    top: -90px;
+    left: 400px;
+}
+
+.contacto{
+    background-color: #dbd08d;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
